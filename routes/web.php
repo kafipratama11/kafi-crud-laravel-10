@@ -23,5 +23,8 @@ Route::get('/index', function () {
 Route::get('/index/create', function () {
     return view('posts.create');
 });
+Route::get('/index/edit', function () {
+    return view('posts.edit');
+});
 
 Route::resource('/posts', PostController::class);

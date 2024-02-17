@@ -1,9 +1,6 @@
 @extends('layouts.app')
 @include('partials.navbar')
+@include('partials.sidebar')
 @section('content')
-    <div class="row">
-        <div class="col">
-            <h1>dashboard</h1>
-        </div>
-    </div>
+
 @endsection

@@ -19,6 +19,7 @@
               <label for="content" class="label-control">Content</label>
               <textarea id="" cols="30" rows="10" class="form-control" name="content"></textarea>
             </div>
+            <button type="submit" class="btn btn-success">submit</button>
           </form>
         </div>
       </div>
